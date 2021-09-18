@@ -1,0 +1,9 @@
+# node_modules
+/node_modules
+
+# parcel bundler files
+.parcel-cache
+dist
+
+# OS files to include if on a Mac
+# .DS_Store
