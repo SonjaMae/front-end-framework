@@ -25,10 +25,36 @@ or
 ```
 
 
-## GIT SETUP
+## Git Setup
 1.  .gitignore ignores files and they will not be uploaded to your remote repository
+
 2.  Set up repo from VS Code
-   -  user profile icon
+   -  user profile icon (Accounts)
    -  sign in to sync settings
-   -  sign in with github
-3. T
+   -  sign in with GitHub
+   -  click green button to accept
+   -  enter the Source Control tab on VS Code
+   -  publish to GitHub public repository
+
+
+## Remove Repo
+1.  go to the GitHub repo's page
+2.  select its Settings tab
+3.  scroll to the bottom (Danger Zone)
+4.  delete the repository
+
+
+## If You Make An Init Mistake
+1.  search your local repository for hidden files
+```bash
+  ls -lah
+```
+2.  look for a file titled
+```
+  .git
+```
+3.  remove the .git file by typing
+```
+  rm -rf .git
+```
+4.  then re-init your repository
