@@ -1,12 +1,15 @@
 # Basic Framework For Front End Vanilla.js Projects
 
 ## Preflight Check
-1. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
+1.  Check you're in the project file by using the current working directory command
+```
+  pwd
+```
+2. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
 ```bash
   npm install
 ```
-
-1. Run development build using the parcel bundler.
+3.  Run development build using the parcel bundler.
 ```bash
    npx parcel src/index.html
 ```
@@ -14,8 +17,7 @@ or
 ```
   npm start
 ```
-
-1. Run production build using the parcel bundler.
+4.  Run production build using the parcel bundler.
 ```bash
    npx parcel build src/index.html
 ```
@@ -47,7 +49,8 @@ or
 ## If You Make An Init Mistake
 1.  search your local repository for hidden files
 ```bash
-  ls -lah
+  ls -lah (on mac)
+  ? (on windows powershell)
 ```
 2.  look for a file titled
 ```
