@@ -58,3 +58,16 @@ or
   rm -rf .git
 ```
 4.  then re-init your repository
+
+
+## Deploying to Netlify
+1.  create a Netlify account linked to GitHub
+2.  select the Sites tab
+3.  click the New Site From Git button
+4.  click GitHub and choose which repo to build
+5.  write the correct git command, in this case
+```
+  npx + 
+  parcel build src/index.html
+```
+6.  Netlify will deploy your repo automatically
