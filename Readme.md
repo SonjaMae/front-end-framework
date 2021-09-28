@@ -1,15 +1,19 @@
 # Basic Framework For Front End Vanilla.js Projects
 
 ## Preflight Check
-1.  Check you're in the project file by using the current working directory command
+1. Check you're in the project file by using the current working directory command
 ```
   pwd
 ```
-2. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
-```bash
-  npm install
+2. Initialize your project
 ```
-3.  Run development build using the parcel bundler.
+  npm init
+```
+3. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
+```bash
+  npm install -D http-server parcel 
+```
+4. Run development build using the parcel bundler.
 ```bash
    npx parcel src/index.html
 ```
@@ -17,7 +21,7 @@ or
 ```
   npm start
 ```
-4.  Run production build using the parcel bundler.
+5. Run production build using the parcel bundler.
 ```bash
    npx parcel build src/index.html
 ```
@@ -69,8 +73,7 @@ or
 3.  click the New Site From Git button
 4.  click GitHub and choose which repo to build
 5.  write the correct git command, in this case
-```
-  npx + 
-  parcel build src/index.html
+```bash
+  npx parcel build src/index.html
 ```
 6.  Netlify will deploy your repo automatically
