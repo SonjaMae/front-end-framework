@@ -11,6 +11,7 @@
 ```
 3. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
 ```bash
+  npm install 
   npm install -D http-server parcel 
 ```
 4. Run development build using the parcel bundler.
